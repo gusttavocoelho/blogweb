@@ -1,0 +1,37 @@
+.post-header{
+    background-color: #2286ae;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    text-align: center;
+}
+
+.post-header h1, .post-header h1 a, .post-header h1 a:visited, .post-header h1 a:active{
+    color: #ffffff;
+    font-size: 36pt;
+    font-family: 'Lobster', cursive;
+}
+
+
+h1, h2, h3, h4{
+    font-family: 'Lobster', cursive;
+    color: #ff9400;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+    font-family: 'Lobster', cursive;
+}
+
+.content {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.date {
+    float: down;
+    color: #828282;
+}
