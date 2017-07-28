@@ -1,5 +1,5 @@
 .post-header{
-    background-color: #2286ae;
+    background-color: #720404;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
     text-align: center;
@@ -11,27 +11,47 @@
     font-family: 'Lobster', cursive;
 }
 
+h1 a, h1 a:visited, h1 a:active{
 
-h1, h2, h3, h4{
+    color: #720404;
     font-family: 'Lobster', cursive;
-    color: #ff9400;
+}
+
+.content h1,h2,h3,h4{
+    color: #720404;
+    font-family: 'Lobster', cursive;
+}
+
+.content{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .post {
-    margin-bottom: 70px;
+    padding-bottom: 50px;
 }
 
-.post h1 a, .post h1 a:visited {
-    color: #000000;
+.date{
+    padding-bottom: 10px;
+}
+
+.comentario h3 a, .post h3 a:visited {
+    color: #720404;
     font-family: 'Lobster', cursive;
 }
 
-.content {
-    margin-left: 40px;
-    margin-right: 40px;
+.comentario p{
+    padding-left: 30px;
 }
 
-.date {
-    float: down;
-    color: #828282;
+.content textarea{
+    width: 100%;
+}
+
+.controls{
+    padding-top: 10px;
+}
+
+.control-group{
+    padding-left: 30px;
 }

@@ -10,13 +10,11 @@ class Post(models.Model):
     texto = models.TextField()
     data_criacao = models.DateTimeField(default=timezone.now)
     data_publicacao = models.DateTimeField(blank=True, null=True)
-
+    visulizacao = models.IntegerField(default = 0)
     def publish(self):
         self.data_publicacao = timezone.now()
         self.save()
 
-    def __str__(self):
-        return str(self.titulo)
 
 
 class Comentario(models.Model):
@@ -25,5 +23,4 @@ class Comentario(models.Model):
     data = models.DateTimeField(default=timezone.now)
     texto = models.TextField()
 
-    def __str__(self):
-        return str((str(self.post.id) + " " + str(self.autor.username) + " " + str(self.data)))
+
